@@ -1,0 +1,198 @@
+---
+format:
+    revealjs:
+        colorlinks: true
+        theme: ["style.scss"]
+        # slide-number: c/t
+        height: 900
+        width: 1600        
+        transition: fade
+---
+
+## {#title-slide data-menu-title="Title Slide" background="images/fondo.jpg" background-size="cover" background-opacity="0.3"}
+
+::: {.custom-title .takeaway}
+Modelos de Machine Learning: <br> *para el monitoreo de la flora* 
+:::
+
+<br>
+
+::: {.subtitle}
+Brenda Durand Ordiales 
+:::
+
+in collaboration with Raquel Esteban, <br>, Sonia Arrasate &<br> Humberto Gonzales
+
+Abril, 2025
+
+posit::conf(2025)
+
+
+
+<br>
+<br>
+
+::: {.title-footer}
+[openscapes.github.io/documenting-things](https://openscapes.github.io/documenting-things/) [(source)](https://github.com/openscapes/documenting-things) [(youtube)](https://www.youtube.com/watch?v=OVM5Ok7W1NQ) 
+:::
+
+::: notes
+Hi! I'm here to share about documenting things and how intentional approaches is helpling teams tackle hard challeges and change organizational culture. 
+
+My name is Julie Lowndes. I'm a marine ecologist and I grew up professionally in the R and Open science communities over past the 10 years. Documenting things has been a big part of shifting my career I now lead  a program called Openscapes. 
+
+So let's talk about Documenting things: Openly for future us
+:::
+
+## {#things-future-us data-menu-title="Things Future Us" background="images/CIENCIAS.jpg" background-size="cover" background-opacity="0.3"}
+
+::: columns
+::: {.column width="45%"}
+::: {.takeaway-left-shout}
+THINGS  
+:::
+
+::: {.takeaway-left-state}
+**all the things**
+ 
+-   Código y analisis de datos
+-   Fotografía
+-   Herramientas de Machine learning
+-   Analisis de laboratorio
+- ideas
+:::
+:::
+
+::: {.column width="45%"}
+::: {.takeaway-left-shout}
+REALIZADOS A:
+:::
+
+::: {.takeaway-left-state}
+**MUESTRAS DE ENCINAS**
+ 
+-   Copa del árbol
+
+-   Muestras de suelo y raices
+
+-   Analisis de pigmentos fotosintéticos
+:::
+:::
+:::
+
+::: notes
+when I say things, I mean all the things. When I say future us, I'm thinking of a mindset beyond you and your computer. So thinking about how what you document now can save hundreds of emails later asking where things are or how to do things.
+:::
+
+---
+
+## PRIMERA ETAPA DEL ANALISIS DE DATOS {.takeaway-left-shout-h2 background="images/LAB.jpg" background-size="cover" background-opacity="0.3"}
+::: {.takeaway-left-state}
+::: fragment
+Deberia ayudar:.
+:::
+
+<br>
+
+::: fragment
+Ecncontrar la variable objetivo y las variables input 
+:::
+:::
+
+<br>
+
+::: fragment
+::: {.takeaway-left-state}
+**Reconocimiento de Variable Objetivo:** El objetivo del estudio es realizar modelos de machine learning que ayuden al monitoreo de los datos de los árboles:Abundancia de genes asociados a la salud del árbol. 
+:::
+
+<br>
+
+::: {.yellow-bg}
+**Videos de referencia** -  (Técnicas de laboratorio [Extracción de ADN de muestras de suelo ](https://www.youtube.com/watch?v=XnqhEX1i7N4&t=2084s) 💙)
+:::
+
+
+:::
+
+::: notes
+it's supposed to be helpful
+
+It does take time, and intentionality. 
+
+We're going to talk about practiacl tips in a lighttning talk and then in stories we'll give more about creating that time and visbility for this valuable work. And the TL;DR is in this  editorial about 
+<!-- place: tech: google docs, README, Zoom, office, Quarto, GitHub, slot in your calendar -->
+<!-- space: people: time, approval from your supervisor, physical , intentional, part of your job, advocating. coworking is the practice of creating space -->
+<!-- The hard part about documentation is being intentional, having this be part of your job. Making space is the hard part -->
+:::
+## **Metodología** {background="#FFF6E1" .takeaway}
+<br>
+::: 
+
+![](images/METODO.png){fig-alt="esta imagen quiero ver" fig-align="center" width="120%"}
+
+:::
+
+
+::: notes
+- my opinionated take on documenting things”
+
+-   I'm also here to say documenting things doesn't have to be painful to write and boring to read.
+-   I have 3 pieces of advice:
+-   the plan for today
+:::
+## Video: Comunicación de plantas
+
+<iframe width="1400" height="800" src="https://www.youtube.com/embed/_sN4k8ns-Ps?autoplay=1" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+
+
+
+:::
+
+::: notes
+This can be whatever software you have transition: what's important about having a place is that it helps you write as you go -
+:::
+
+## *ESTADO ACTUAL DEL PROYECTO* {background="images/diseno-fondo-ciencias_1212-381.jpg" background-size="cover" background-opacity="0.3"}
+
+Se realizaron dos modelos, uno de ellos con buenos resultados. Aún falta hacer pruebas con RF, XGBOOST, LDA Y ÁRBOL DE DESICIÓN
+
+<br>
+::: 
+![](images/VER1.png){fig-alt="esta imagen quiero ver" fig-align="center" width="55%"}
+:::
+
+::: ref-text
+Elaboración propia
+:::
+
+::: notes
+
+:::
+
+## *Uso de phyton* {background="#FFF6E1"}
+
+La plataforma google Colab me ha sido de utilidad para realizar mis códigos.
+
+::: borderbox
+![](images/Captura.JPG){fig-alt="esta imagen quiero ver" fig-align="center" width="70%"}
+:::
+
+[🔗 Haz clic aquí para abrir el notebook en Google Colab](https://colab.research.google.com/drive/153ddGGUxKuWxYOuW-ojPHy7NYFan9Lap?usp=sharing)
+
+##
+
+Equipo de investigación:
+
+<div style="display: flex; justify-content: center; gap: 20px;">
+  <img src="images/poster.jpg" alt="esta imagen quiero ver" style="width:35%;"/>
+  <img src="images/yo.jpg" alt="esta imagen quiero ver" style="width:35%;"/>
+</div>
+##
+
+::: {.slide style="display: flex; align-items: center; justify-content: center; height: 100%;"}
+<span class="zoom" style="font-size: 5em; color: #FF4081; font-weight: bold;">GRACIAS</span>
+:::
+
+
+
